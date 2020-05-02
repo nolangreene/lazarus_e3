@@ -425,11 +425,11 @@ SUB EVENT_vetAA(line, ChatSender,vetAAtoUse)
 /RETURN
 
 |------------------------------------------------|
-|- Manastone for Lazarus              		    -|
+|- Manastone for Lazarus             	        -|
 |------------------------------------------------|
-#EVENT manastone "#1# tells you, 'Manastone'"
-#EVENT manastone "#1# tells the group, 'Manastone'"
-#EVENT manastone "<#1#> Manastone"
+#EVENT manastone "#1# tells you, 'Stone'"
+#EVENT manastone "#1# tells the group, 'Stone'"
+#EVENT manastone "<#1#> Stone"
 SUB EVENT_manastone(line, ChatSender)
   /if (${Bool[${FindItem[Manastone]}]}) {
     /bc START -- Manastone
