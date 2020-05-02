@@ -24,7 +24,7 @@ SUB Main(modeSelect)
   /declare i int local
 
 :MainLoop
-/if (${Me.Name.Equal["Amazonne"]}) /end
+/if (${Me.Name.Equal["BazaarBot"]}) /end
 /if (${Debug}) /echo |- MainLoop ==>
 		/varset ActionTaken FALSE
 		/call check_Active
